@@ -1,0 +1,182 @@
+/*
+Theme Name: Mundo
+Theme URI: 
+Description: 
+Author: Dannci
+Author URI: http://goodtheme.org/
+version: 1.3
+Tags: 
+*/
+
+
+@import "style-shortcodes.css";
+
+
+#styleswitch {
+	list-style-type:none;
+	margin:0;
+	padding:10px 15px;
+	position:absolute;
+	position:fixed;
+	right:10px;
+	top:259px;
+	background: #fefefe;
+	
+	
+	box-shadow: 0 0 7px #555;
+	-webkit-box-shadow: 0 0 7px #555;
+	-moz-box-shadow: 0 0 7px #555;
+	}
+
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+	
+#accordion {
+	position:relative;
+	padding:28px 22px 10px 25px;
+	margin:0;
+	overflow:hidden;
+	border-top:1px solid #fff;
+	border-right:1px solid #fff;
+	border-left:1px solid #fff;
+	border-bottom:1px solid #ddd;
+	background:#eee;
+}
+
+#accordion h3{
+	color:#000;
+	font-weight:bold;
+	margin:0;
+	padding:18px 0;
+	text-shadow: 0 1px 2px #fff;
+	background:url(images/line-h.png) top repeat-x;
+}
+
+#accordion small{
+	margin:0;
+	padding:15px 15px 20px 15px;
+}
+
+#accordion li{
+	cursor: pointer;
+	margin-bottom:0;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+
+
+#accordion li.active{
+	color:#000;
+}
+
+#accordion li ul{
+	padding:0;
+	margin:0;
+}
+
+#accordion li.active li{
+	text-indent:0;
+	overflow:hidden;
+	width:552px;
+	margin:-3px 0 20px 0;
+	background-color:#FFF;
+	border:3px solid #fff;
+	
+	
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	
+	
+	-moz-box-shadow:0px 0px 3px #999;
+	-webkit-box-shadow:0px 0px 3px #999;
+	box-shadow:0px 0px 3px #999;
+}
+
+
+#accordion li.active li .image{
+	height:300px;
+	width:555px;
+	overflow:hidden;
+}
+
+
+#accordion li li{
+	font-weight: normal;
+	background:none;
+	border:0;
+}
+
+
+
+
+#featured-content {
+margin:30px 30px 15px 30px;
+width:auto; 
+height:260px;
+width:550px;
+
+	-moz-box-shadow:0px 0px 5px #aaa;
+	-webkit-box-shadow:0px 0px 5px #aaa;
+	box-shadow:0px 0px 5px #aaa;
+}
+			
+#featured-content .items {
+width:550px; height:260px;
+position:relative;
+overflow:hidden;
+}
+	
+#featured-content .item {
+position:absolute; left:0; top:0;
+}
+					
+#featured-content .item img {
+position:absolute; top:0; left:0;
+}
+						
+#featured-content .item a {
+width:550px; height:260px;
+background:url(images/frame.png) no-repeat;
+position:relative;
+z-index:2;
+display:block; text-indent:-9999em;
+}
+
+						
+#featured-meta {
+margin:0; padding:0 30px 30px 30px;
+overflow:hidden;
+border-bottom:1px solid #CCC;
+}
+
+#featured-meta h2{
+font-weight:bold;
+margin:0;
+}
