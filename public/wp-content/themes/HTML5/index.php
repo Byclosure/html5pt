@@ -73,7 +73,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
 	<!-- recent post -->	
 	<div class="recentpost">
 	<div class="leadhead">
-	<h4 style="float:left">Recent <span>Posts</span></h4>
+	<h4 style="float:left"><span>Posts</span> Recents</h4>
 	
 	<h4 style="float:right; padding:0 3px 0 0;"><a href="<?php bloginfo('rss2_url'); ?>"><img class="tipos" alt="RSS" title="Subscribe to our RSS Feed" src="<?php bloginfo('template_directory'); ?>/images/icons/rss.png" /></a></h4>
 	</div>

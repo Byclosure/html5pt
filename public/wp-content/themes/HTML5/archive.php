@@ -44,7 +44,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
 				
 				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Link permanente para <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 				
-				<small><?php the_time('M j, y') ?> &bull; <?php the_category(', ') ?> &bull; <?php comments_popup_link('Sem Comentarios &#187;', '1 Comentario &#187;', '% Comments &#187;'); ?></small><br/>
+				<small><?php the_time('M j, y') ?> &bull; <?php the_category(', ') ?> &bull; <?php comments_popup_link('Sem Comentários &#187;', '1 Comentário &#187;', '% Comentários &#187;'); ?></small><br/>
 				<?php echo pov_excerpt( get_the_excerpt(), '250'); ?><br/>
 
 		</div>
