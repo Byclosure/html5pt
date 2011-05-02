@@ -1,8 +1,8 @@
 <?php // Do not delete these lines
 	if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
-		die ('Please do not load this page directly. Thanks!');
+		die ('Por favor nao aceda directamente a esta pagina. Obrigado!');
 	if ( post_password_required() ) {
-		echo '<p class="nocomments">This post is password protected. Enter the password to view comments.</p>';
+		echo '<p class="nocomments">Este post tem acesso limitado. Insira a password para ver os comentarios.</p>';
 		return;
 	}
 /* You can start editing here. */ ?>
@@ -11,7 +11,7 @@
 
 <div class="comments">
 
-	<h4 id="comments"><?php comments_number('No Comments', 'One Comment', '% Comments' );?> on <span>&#8220;<?php the_title(); ?>&#8221;</span></h4>
+	<h4 id="comments"><?php comments_number('Sem Comentarios', 'Um Comentario', '% Comentarios' );?> on <span>&#8220;<?php the_title(); ?>&#8221;</span></h4>
 
 	
 
@@ -45,7 +45,7 @@
 							<cite><?php comment_author_link() ?></cite> says:
 						</p>
 						<?php if ($comment->comment_approved == '0') : // If comment is not approved ?>
-							<p class="alert"><em>Your comment is awaiting moderation.</em></p>
+							<p class="alert"><em>O seu comentário está a ser analisado.</em></p>
 						<?php endif; ?>
 						<div class="content">
 							<?php comment_text() ?>

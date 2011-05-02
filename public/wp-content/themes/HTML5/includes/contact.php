@@ -55,7 +55,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
                   
                   </p>
                 
-                <input type="submit" id="form-submit" alt="send it" name="submitButton" value="<?php _e('Send','pov'); ?>" class="submit"/>
+                <input type="submit" id="form-submit" alt="enviar" name="submitButton" value="<?php _e('Enviar','pov'); ?>" class="submit"/>
               
               </form>
          		   

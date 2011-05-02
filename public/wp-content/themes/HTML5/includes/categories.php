@@ -3,7 +3,7 @@
 <div id="menu">	
 <div class="box">
 			<div id="categories">
-            <ul class="sf-menu"><li id="home"><a href="<?php echo get_settings('home'); ?>/">Home<br/> <span>Sweet Home</span></a></li></ul>
+            <ul class="sf-menu"><li id="home"><a href="<?php echo get_settings('home'); ?>/">In&iacute;<br/> <span></span></a></li></ul>
 			<?php $menuClass = 'sf-menu';
 				$menuID = 'secondary-menu';
 				$secondaryNav = '';

@@ -23,7 +23,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
 <div class="widgetfooter">
 	
 	<?php if ($pov_disabout == "true") { } else { ?>
-	<h2>About Us</h2>			
+	<h2>Sobre n&oacute;s</h2>			
 	<div id="about">
 		<?php $aboutimg = get_option('pov_aboutimg'); ?><img src="<?php echo ($aboutimg); ?>" alt="About Us!" />
 		<?php $about = get_option('pov_about'); if ($about != '') { echo stripslashes($about); } ?>
@@ -45,7 +45,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
 	<!-- latest tweets -->
 	<?php if ($pov_distweet == "true") { } else { ?>
 	<?php $twit_user_name="#" ?><?php if (get_settings('pov_twitter_user_name')) { $twit_user_name = get_settings('pov_twitter_user_name') ; } ?>
-	<h2><a href="http://twitter.com/<?php echo $twit_user_name; ?>">Follow Me</a></h2>
+	<h2><a href="http://twitter.com/<?php echo $twit_user_name; ?>">Siga-me</a></h2>
 	
 	<div id="lasttwit">
 		<div id="tweets"></div>
@@ -67,7 +67,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
 <div class="widgetfooter3">
 	<?php if ($pov_indexport == "true") { } else { ?>
 	<!-- Start Portfolio -->
-	<h2>Gallery</h2>
+	<h2>Galeria</h2>
 	<div class="portfolio-index">
 	
 		<?php $slidecat = get_option('pov_portfolio_category'); 

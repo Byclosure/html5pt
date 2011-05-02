@@ -22,7 +22,7 @@
 				
 		<!-- start related posts -->		
 		
-			<h4>Related <span>Posts</span></h4>		
+			<h4>Posts <span>relacionados</span></h4>		
 			<ul class="related">	
 				
 			<?php
@@ -49,7 +49,7 @@
 						<h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
 						<?php echo pov_excerpt( get_the_excerpt(), '130'); ?><br/>
 						<small><?php the_time('F jS, Y') ?> with
-    					<?php comments_popup_link('No Comments;', '1 Comment', '% Comments'); ?></small>
+    					<?php comments_popup_link('Sem Comentarios;', '1 Comentario', '% Comentario'); ?></small>
 
 					</li>
 			<?php

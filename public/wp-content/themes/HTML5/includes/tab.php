@@ -3,8 +3,8 @@
 		
 		<ul class="gttTabs tabs">
 			<li><a href="#pop">Popular</a></li>
-			<li><a href="#feat">Latest</a></li>
-			<li><a href="#comm">Comments</a></li>
+			<li><a href="#feat">&Uacute;ltimas</a></li>
+			<li><a href="#comm">Coment&aacute;rios</a></li>
 			
 		</ul>	
 		

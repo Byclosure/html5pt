@@ -14,7 +14,7 @@
 			<div class="titlebutton">
 				<?php $readmore="#" ?>
 				<?php if (get_settings('pov_readmore')) { $readmore = get_settings('pov_readmore') ; } ?>
-    			<a href="<?php echo $readmore; ?>" title="Read More">
+    			<a href="<?php echo $readmore; ?>" title="Ler mais">
 				
 				<!-- Button text -->
 				View Demo 
@@ -26,7 +26,7 @@
 			<div class="titlebutton">
 				<?php $moredetails="#" ?>
 				<?php if (get_settings('pov_moredetails')) { $moredetails = get_settings('pov_moredetails') ; } ?>
-    			<a href="<?php echo $moredetails; ?>" title="More Details">
+    			<a href="<?php echo $moredetails; ?>" title="Mais detalhes">
 				
 				<!-- Button text -->
 				More Details 
