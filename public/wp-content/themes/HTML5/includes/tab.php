@@ -25,7 +25,7 @@
 							<li>
 								<div class="thumb"><a href="<?php the_permalink(); ?>"><?php dp_attachment_image($post->ID, 'thumbnail', 'alt="' . $post->post_title . '"'); ?></a></div>
 								<h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-								<small><?php the_time('M j, y') ?>  with  <?php comments_popup_link('No Comments;', '1 Comment', '% Comments'); ?></small>
+								<small><?php the_time('M j, y') ?>  with  <?php comments_popup_link('Sem Comentarios;', '1 Comentario', '% Comentario'); ?></small>
 							</li>
 
 						<?php endwhile; ?>
@@ -48,7 +48,7 @@
 							<li>
 								<div class="thumb"><a href="<?php the_permalink(); ?>"><?php dp_attachment_image($post->ID, 'thumbnail', 'alt="' . $post->post_title . '"'); ?></a></div>
 								<h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-								<small><?php the_time('M j, y') ?>  with  <?php comments_popup_link('No Comments;', '1 Comment', '% Comments'); ?></small>
+								<small><?php the_time('M j, y') ?>  with  <?php comments_popup_link('Sem Comentarios;', '1 Comentario', '% Comentario'); ?></small>
 							</li>
 						<?php endwhile; ?>		
 			</ul>

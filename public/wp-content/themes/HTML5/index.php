@@ -53,7 +53,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
 						</div>
 						<h2><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
 						<small>
-						<?php the_time('M j, y') ?> &bull; <?php the_category(', ') ?> &bull; <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?>
+						<?php the_time('M j, y') ?> &bull; <?php the_category(', ') ?> &bull; <?php comments_popup_link('Sem Comentários &#187;', '1 Comentário &#187;', '% Comentário &#187;'); ?>
 						</small>
 						<br/>
 						<?php echo pov_excerpt( get_the_excerpt(), '220'); ?><br/>
@@ -97,7 +97,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
 					<?php echo pov_excerpt( get_the_excerpt(), '150'); ?><br/>
 				</div>
 				
-				<small><?php the_category(', ') ?> &bull; <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></small>
+				<small><?php the_category(', ') ?> &bull; <?php comments_popup_link('Sem Comentários &#187;', '1 Comentário &#187;', '% Comentários &#187;'); ?></small>
 				
 			</div>
 
@@ -117,7 +117,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
 			
 		<?php else : ?>
 
-			<p>Sorry, no posts matched your criteria.</p>
+			<p>Não foram devolvidos resultados.</p>
 		
 		<?php endif; ?>
 		<!-- end posts loop -->	

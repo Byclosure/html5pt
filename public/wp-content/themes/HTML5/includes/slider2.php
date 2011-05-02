@@ -53,7 +53,7 @@ $(document).ready(function(){
                     
                     
                     <div class="image"><a href="<?php the_permalink() ?>"><?php dp_attachment_image($post->ID, 'Large', 'alt="' . $post->post_title . '"'); ?></a></div>
-              		<small><?php the_category(', ') ?> &bull; <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></small>
+              		<small><?php the_category(', ') ?> &bull; <?php comments_popup_link('Sem comentários &#187;', '1 Comentário &#187;', '% Comentários &#187;'); ?></small>
                     <div style="float:right"><small><a href="<?php the_permalink() ?>">Ler mais &rarr;</a></small></div></li>
             </ul>
         	</li>

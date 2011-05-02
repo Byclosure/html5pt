@@ -36,7 +36,7 @@
 				echo short_title('...', 8); 
 				?>
         </a></h2>
-        <small><?php the_category(', ') ?> &bull; <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></small><br/>
+        <small><?php the_category(', ') ?> &bull; <?php comments_popup_link('Sem Comentários &#187;', '1 Comentário &#187;', '% Comentário &#187;'); ?></small><br/>
 		<?php echo pov_excerpt( get_the_excerpt(), '220'); ?><br/>
 		</div>
         

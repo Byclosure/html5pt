@@ -13,7 +13,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
 	<?php if (have_posts()) : ?>
 
 		<div class="leadhead">
-			<h4>Search Results for <span>"<?php echo $s; ?>"</span></h4>
+			<h4>Resultados da pesquisa <span>"<?php echo $s; ?>"</span></h4>
 		</div>
 
 
@@ -27,7 +27,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
 				
 				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 				
-				<small><?php the_time('M j, y') ?> &bull; <?php the_category(', ') ?> &bull; <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></small><br/>
+				<small><?php the_time('M j, y') ?> &bull; <?php the_category(', ') ?> &bull; <?php comments_popup_link('Sem Comentários &#187;', '1 Comentário &#187;', '% Comentários &#187;'); ?></small><br/>
 				<?php echo pov_excerpt( get_the_excerpt(), '250'); ?><br/>
 			   
 			</div>
@@ -42,7 +42,7 @@ if (get_settings( $value['id'] ) === FALSE) { $$value['id'] = $value['std']; } e
 
 	<?php else : ?>
 		<div class="post">
-			<h2 class="center">No posts found. Try a different search?</h2>
+			<h2 class="center">Não foram encontrados posts. Tenta uma nova pesquisa!</h2>
 				<div style="float:left;">
 					<?php include (TEMPLATEPATH . '/searchform.php'); ?>
 				</div>
