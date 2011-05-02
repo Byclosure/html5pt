@@ -16,6 +16,7 @@ set :deploy_via, :remote_cache
 
 namespace :deploy do
   task :finalize_update do
+    run "[ ! -d #{release_path}/public/uploads/ ] && ln -s #{shared_path}/system #{release_path}/public/uploads"
   end
   task :set_environment do
   end
