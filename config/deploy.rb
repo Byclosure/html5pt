@@ -8,7 +8,7 @@ set :scm, :git
 
 set :repository, "git@github.com:Byclosure/html5pt.git"
 set :branch, case rails_env
-when :production then "production"
+when :production then "master"
 when :staging then "master"
 else raise("Unknown deploy environment: '#{rails_env}'")
 end
