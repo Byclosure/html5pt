@@ -180,3 +180,54 @@ border-bottom:1px solid #CCC;
 font-weight:bold;
 margin:0;
 }
+
+
+
+/* fixing **/
+
+body .sf-menu a span {
+display:block;
+}
+
+body .sf-menu a span {
+min-height: 1em;
+display:block;
+}
+body #categories, body #menu {
+height: auto;
+overflow: hidden;
+}
+
+body li#home a {
+border:none;
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active, 
+body div#menu .sf-menu a:hover *,
+.sf-menu li.current-menu-item a,
+.sf-menu li.current-menu-item a * {
+color: #013C49;
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active,
+.sf-menu li.current-menu-item a {
+background: rgba(255,255,255,0.4);
+}
+
+.sf-menu a, .sf-menu a:visited {
+line-height: inherit;
+}
+
+
+#post-28 .post p:empty,
+#post-28 .post li:empty {
+display:none;
+}
+
+#post-28 li {
+list-style-type:none;
+}
+
+body ul.gttTabs li a {
+padding: 4px;
+}
